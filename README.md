@@ -39,21 +39,21 @@ the values yourself with something like `math.max(0, math.min(1, t))`
 or `(math.max 0 (math.min 1 t))`.
 
 
-### Lua ((ease.lua)[/ease.lua])
+### Lua ([ease.lua](/ease.lua))
 
 ```lua
 local ease = require("ease")
 print("example:", ease.out_expo(0.5))
 ```
 
-### Fennel ((ease.fnl)[/ease.fnl])
+### Fennel ([ease.fnl](/ease.fnl))
 
 ```fennel
 (local ease (require :ease))
 (print "example:" (ease.out-expo 0.5))
 ```
 
-### MoonScript ((ease.moon)[/ease.moon])
+### MoonScript ([ease.moon](/ease.moon))
 
 ```moonscript
 ease = require "ease"

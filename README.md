@@ -1,7 +1,7 @@
 
 # Penner Easing Functions
 
-![](/love2d-example/lua-easing-gallery.gif)
+![](/love2d-example/demo.mp4)
 
 Over the years I've adapted [Robert Penner's easing functions](https://easings.net)
 numerous times in different programming languages. Despite

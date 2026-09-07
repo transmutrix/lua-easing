@@ -1,7 +1,5 @@
 
-# Penner Easing Functions
-
-![](/love2d-example/demo.mov)
+# Lua Easing Functions
 
 Over the years I've adapted [Robert Penner's easing functions](https://easings.net)
 numerous times in different programming languages. Despite
@@ -22,6 +20,8 @@ this _from the repo root_:
 ```bash
 love love2d-example
 ```
+
+![](/love2d-example/demo.mov)
 
 
 ## How to Use

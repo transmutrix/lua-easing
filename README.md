@@ -39,21 +39,21 @@ the values yourself with something like `math.max(0, math.min(1, t))`
 or `(math.max 0 (math.min 1 t))`.
 
 
-### [Lua](https://www.lua.org)
+### Lua ((ease.lua)[/ease.lua])
 
 ```lua
 local ease = require("ease")
 print("example:", ease.out_expo(0.5))
 ```
 
-### [Fennel](https://fennel-lang.org)
+### Fennel ((ease.fnl)[/ease.fnl])
 
 ```fennel
 (local ease (require :ease))
 (print "example:" (ease.out-expo 0.5))
 ```
 
-### [MoonScript](https://moonscript.org)
+### MoonScript ((ease.moon)[/ease.moon])
 
 ```moonscript
 ease = require "ease"
@@ -91,3 +91,11 @@ If you plan to distribute your project, remember to include
 a copy of [`LICENSEmd`](/LICENSE.md) as "lua-easing-license.md"
 or splat it into a combined license file with everything else,
 like [LÖVE](https://love2d.org) itself does.
+
+
+## "Artisanal" Code Only
+
+All the code in this repo was written by a human being.
+
+No genAI tools have been used in the creation of the easing
+curves themselves, nor this implementation of them.
